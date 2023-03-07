@@ -1,0 +1,54 @@
+*{
+	margin= auto;
+
+}
+body{
+	background-color:#F0FFFF;
+}
+.painel1{
+	display: block;
+	width: calc(60% - 10px);
+    height: calc(40% - 10px);
+    max-width: auto; 
+    margin: 0 auto;
+    background-color:#22B8C2; 
+    border-radius: 50px ;
+	position: relative;
+}
+.painel1 input{ 
+    position: absolute;
+	transform: translate(-50%, 10%);
+	margin:auto; 
+	padding: 10px 150px; 
+	border-radius: 50px;
+	top:10%;
+    left: 50%;
+}
+.painel1 textarea{
+	position: absolute;
+	transform: translate(-50%, 90%);
+	margin:auto;  
+	width: 50%;
+	padding: 15px 30px; 
+	border-radius: 50px;
+	top:20%;
+    left: 50%;
+}
+.painel1 button{
+	position: absolute;
+	transform: translate(-50%, 250%);
+	margin: 0 auto; 
+	padding: 8px; 
+	top:35%;
+    left:50%;
+    background-color: white;
+    border-radius: 50px;
+    border-color: white;
+}
+.painel1 button:hover {
+	background-color: #3333;
+	border-radius: 50px;
+    border-color: #3333;
+
+
+}
